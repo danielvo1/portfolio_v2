@@ -5,7 +5,7 @@ const instance = new TypeIt("#animated_intro", {
     afterComplete: function () {
         $(document).keyup(function(event) {
             if (event.which === 13) {
-                window.location = "main.html";
+                window.location = "main/main.html";
             }
         });
       },
